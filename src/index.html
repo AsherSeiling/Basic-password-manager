@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <title>Password Manager</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="render.js"></script>
   </head>
   <body>
     <center>
       <h1>Password manager</h1>
-      <div class="input area" style="margin-top: 60pt;">
+    </center>
+    <center id="center">
+      <div class="input area" style="margin-top: 60pt;" id="input_area">
         <p>Input your password key</p>
         <input type="text" id="password_key">
         <p>Input Master password</p>
         <input type="text" id="master_pass">
       </div>
       <br>
-      <button>Enter</button>
+      <button onclick="main();">
+        <a>
+          Submit
+        </a>
+      </button>
     </center>
   </body>
 </html>
