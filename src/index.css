@@ -3,4 +3,15 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  color: rgb(57, 57, 57);
+}
+input{
+  border-radius: 3pt;
+  border: 1px solid darkgray;
+}
+button{
+  background-color: white;
+  padding: 2pt;
+  border-radius: 3pt;
+  border: 1px solid black;
 }

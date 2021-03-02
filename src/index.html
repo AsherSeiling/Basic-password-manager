@@ -2,14 +2,21 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <title>Password Manager</title>
     <link rel="stylesheet" href="index.css">
     <script defer src="render.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-    <button>Test</button>
+    <center>
+      <h1>Password manager</h1>
+      <div class="input area" style="margin-top: 60pt;">
+        <p>Input your password key</p>
+        <input type="text" id="password_key">
+        <p>Input Master password</p>
+        <input type="text" id="master_pass">
+      </div>
+      <br>
+      <button>Enter</button>
+    </center>
   </body>
 </html>
