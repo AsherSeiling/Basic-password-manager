@@ -5,12 +5,15 @@
     <title>Password Manager</title>
     <link rel="stylesheet" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src="render.js"></script>
+    <script defer src="jsScript/render.js"></script>
   </head>
   <body>
     <center>
       <h1>Password manager</h1>
     </center>
+    <div id="button1">
+      <button onclick="new_password();">New password</button>
+    </div>
     <center id="center">
       <div class="input area" style="margin-top: 60pt;" id="input_area">
         <p>Input your password key</p>
@@ -20,10 +23,11 @@
       </div>
       <br>
       <button onclick="main();">
-        <a>
           Submit
-        </a>
       </button>
     </center>
+    <div id="output">
+    </div>
   </body>
 </html>
+ 
